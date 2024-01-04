@@ -1,0 +1,22 @@
+{
+    "name": "muhib/module-stripe",
+    "description": "Change currency code",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Muhib",
+            "email": "muhibkhan089@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Muhib\\Stripe\\": ""
+        }
+    }
+}
